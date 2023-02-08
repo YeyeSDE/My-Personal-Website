@@ -1,0 +1,107 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-image: url(https://images.unsplash.com/photo-1673881140590-0ce3136c24aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3686&q=80); 
+  /*background-image: url(https://images.unsplash.com/photo-1629654857513-1136aef1b10f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3803&q=80); */
+  background-size:cover
+  }
+
+header {
+  display: flex;
+  background-color:#dfb1d7;
+  height: 210px;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  height:210px;
+  width: 160px;
+  float: left;
+  margin-right: 15px; 
+}
+
+header h1 {
+    color:#450644;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 28px;
+  }
+
+nav {
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  justify-content:space-between;
+  padding: 10px 15px;
+  height: 25px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  font-size: medium;
+  color: #843a76;
+  margin-right: 25px;
+}
+
+nav a:hover {
+  color: rgb(23, 21, 20);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-size: cover;
+}
+
+section {
+  padding: 80px;
+  text-align: center;
+  background-color: rgb(237, 214, 228);
+  background-size: cover;
+}
+
+article {
+  box-shadow: rgb(151, 111, 63);
+  box-sizing: border-box; 
+  padding: 10px;
+  background-color: rgba(rgb(88, 46, 46), rgb(72, 103, 72), rgb(64, 64, 97), alpha);
+  text-align: center;
+  width: 240px;
+}
+
+h2, h3, h4 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h5 {
+  font-size: 22px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: #332f32;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #e8c5d4;
+  color: #03353b;
+  padding: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+
+  
+
+ 
+  
+  
